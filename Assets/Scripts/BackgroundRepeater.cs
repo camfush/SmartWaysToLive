@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BackgroundRepeater : MonoBehaviour
 {
-    public Vector2 velocity = new Vector2(0, 0);
+    private Vector2 velocity;
     private float spriteHeight;
     private Transform cameraTransform;
 
@@ -14,16 +14,19 @@ public class BackgroundRepeater : MonoBehaviour
         cameraTransform = Camera.main.transform;
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteHeight = spriteRenderer.sprite.bounds.size.y;
+        print(spriteHeight);
+        velocity = new Vector2(0, 10 / GameInfo.TickRate);
+        print(velocity);
         GetComponent<Rigidbody2D>().velocity = velocity;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if((transform.position.y + spriteHeight) < cameraTransform.position.y)
+        if ((transform.position.y - spriteHeight) > cameraTransform.position.y)
         {
             Vector3 newPos = transform.position;
-            newPos.y += 2.0f * spriteHeight;
+            newPos.y -= 2.0f * spriteHeight;
             transform.position = newPos;
         }
     }
