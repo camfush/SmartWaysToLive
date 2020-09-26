@@ -1,7 +1,193 @@
 fileFormatVersion: 2
 guid: 847a8d2e85568384ba72778087afea4a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3117386325826035241
+    second: Sneeze_0
+  - first:
+      213: -1810713351140394108
+    second: Sneeze_1
+  - first:
+      213: 1710907142304127532
+    second: Sneeze_2
+  - first:
+      213: -666313856328492416
+    second: Sneeze_3
+  - first:
+      213: -8572279607394091010
+    second: Sneeze_4
+  - first:
+      213: 3314414613668036391
+    second: Sneeze_5
+  - first:
+      213: -7368702046739819913
+    second: Sneeze_6
+  - first:
+      213: -4764749005770853422
+    second: Sneeze_7
+  - first:
+      213: 4865291415908901981
+    second: Sneeze_8
+  - first:
+      213: -8529802515564366937
+    second: Sneeze_9
+  - first:
+      213: -4687735640031437003
+    second: Sneeze_10
+  - first:
+      213: -8082330104477409474
+    second: Sneeze_11
+  - first:
+      213: -1570892594847338181
+    second: Sneeze_12
+  - first:
+      213: -1748139703219027304
+    second: Sneeze_13
+  - first:
+      213: -1145251160396636728
+    second: Sneeze_14
+  - first:
+      213: 937482419123414940
+    second: Sneeze_15
+  - first:
+      213: -419897452673941469
+    second: Sneeze_16
+  - first:
+      213: 4903994061097890392
+    second: Sneeze_17
+  - first:
+      213: -6123709242195099550
+    second: Sneeze_18
+  - first:
+      213: -303666846538008852
+    second: Sneeze_19
+  - first:
+      213: 5855961724145984237
+    second: Sneeze_20
+  - first:
+      213: -7593528142832949676
+    second: Sneeze_21
+  - first:
+      213: -8948943448685699046
+    second: Sneeze_22
+  - first:
+      213: 7877245585290566813
+    second: Sneeze_23
+  - first:
+      213: 8841163619746565889
+    second: Sneeze_24
+  - first:
+      213: -6876945985375516278
+    second: Sneeze_25
+  - first:
+      213: -7002887552382412475
+    second: Sneeze_26
+  - first:
+      213: -7816136945496439432
+    second: Sneeze_27
+  - first:
+      213: -3813722048098432619
+    second: Sneeze_28
+  - first:
+      213: -8038021520234406620
+    second: Sneeze_29
+  - first:
+      213: 1381171711755339948
+    second: Sneeze_30
+  - first:
+      213: 5466431570488456935
+    second: Sneeze_31
+  - first:
+      213: -6560020476631439190
+    second: Sneeze_32
+  - first:
+      213: 93186155662426692
+    second: Sneeze_33
+  - first:
+      213: 8463520369054854592
+    second: Sneeze_34
+  - first:
+      213: 7270619623415061659
+    second: Sneeze_35
+  - first:
+      213: -296115681030374834
+    second: Sneeze_36
+  - first:
+      213: 5621919602179153791
+    second: Sneeze_37
+  - first:
+      213: -7331017325351789502
+    second: Sneeze_38
+  - first:
+      213: -7856117520752228595
+    second: Sneeze_39
+  - first:
+      213: 7736548194454739987
+    second: Sneeze_40
+  - first:
+      213: -4869818242145811641
+    second: Sneeze_41
+  - first:
+      213: -2301430530306123426
+    second: Sneeze_42
+  - first:
+      213: 3855777597253864799
+    second: Sneeze_43
+  - first:
+      213: 1496240010048201175
+    second: Sneeze_44
+  - first:
+      213: -2230720783278163320
+    second: Sneeze_45
+  - first:
+      213: 2431566750203069817
+    second: Sneeze_46
+  - first:
+      213: 6497417918537005553
+    second: Sneeze_47
+  - first:
+      213: -2508669671414031555
+    second: Sneeze_48
+  - first:
+      213: -3724112615305608284
+    second: Sneeze_49
+  - first:
+      213: 4274553886653326198
+    second: Sneeze_50
+  - first:
+      213: -3107258765499147560
+    second: Sneeze_51
+  - first:
+      213: 1345525049906497777
+    second: Sneeze_52
+  - first:
+      213: -1558928919603401827
+    second: Sneeze_53
+  - first:
+      213: 328978064686461952
+    second: Sneeze_54
+  - first:
+      213: 3074424717881847927
+    second: Sneeze_55
+  - first:
+      213: 5800622234090545102
+    second: Sneeze_56
+  - first:
+      213: -4778047740461049653
+    second: Sneeze_57
+  - first:
+      213: 2868069832987691521
+    second: Sneeze_58
+  - first:
+      213: 6989096095930111804
+    second: Sneeze_59
+  - first:
+      213: 3076924956494681749
+    second: Sneeze_60
+  - first:
+      213: 7512204657307251299
+    second: Sneeze_61
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +227,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +259,1335 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sneeze_0
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 5392
+        width: 5774
+        height: 1088
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e5582c85e234b20800000000000000
+      internalID: 3117386325826035241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_1
+      rect:
+        serializedVersion: 2
+        x: 7935
+        y: 5513
+        width: 483
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b383bfccd0fd6e0800000000000000
+      internalID: -1810713351140394108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_2
+      rect:
+        serializedVersion: 2
+        x: 9712
+        y: 5527
+        width: 613
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a57bc2bfc5eb710800000000000000
+      internalID: 1710907142304127532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_3
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 4492
+        width: 554
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a9e94f317c0c6f0800000000000000
+      internalID: -666313856328492416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_4
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 4936
+        width: 120
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff33fd6d15290980800000000000000
+      internalID: -8572279607394091010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_5
+      rect:
+        serializedVersion: 2
+        x: 3248
+        y: 5262
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ffb06d78a2ffd20800000000000000
+      internalID: 3314414613668036391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_6
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 5167
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7721160978c1db990800000000000000
+      internalID: -7368702046739819913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_7
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 5155
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3f123260630edb0800000000000000
+      internalID: -4764749005770853422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_8
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 4902
+        width: 304
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54e10ee3ccf48340800000000000000
+      internalID: 4865291415908901981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_9
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 5082
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a37d8f0ecd00a980800000000000000
+      internalID: -8529802515564366937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_10
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 5071
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fdcf6a541d1feb0800000000000000
+      internalID: -4687735640031437003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_11
+      rect:
+        serializedVersion: 2
+        x: 8238
+        y: 4312
+        width: 410
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f9d2d879bc5df80800000000000000
+      internalID: -8082330104477409474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_12
+      rect:
+        serializedVersion: 2
+        x: 10544
+        y: 4784
+        width: 467
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3135d70281133ae0800000000000000
+      internalID: -1570892594847338181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_13
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 5055
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8928fd3b33c5db7e0800000000000000
+      internalID: -1748139703219027304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_14
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 4975
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd54fd23204b10f0800000000000000
+      internalID: -1145251160396636728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_15
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 4975
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97660f0b4b920d00800000000000000
+      internalID: 937482419123414940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_16
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 4936
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3204743dd793c2af0800000000000000
+      internalID: -419897452673941469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_17
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 4913
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8527d58bd9c7e0440800000000000000
+      internalID: 4903994061097890392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_18
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 4818
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2604f2793e6340ba0800000000000000
+      internalID: -6123709242195099550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_19
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 4840
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f90aac9829cbf0800000000000000
+      internalID: -303666846538008852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_20
+      rect:
+        serializedVersion: 2
+        x: 3125
+        y: 4818
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de26102792e844150800000000000000
+      internalID: 5855961724145984237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_21
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 4542
+        width: 304
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456a286e26e5e9690800000000000000
+      internalID: -7593528142832949676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_22
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 4807
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10a702d857fec380800000000000000
+      internalID: -8948943448685699046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_23
+      rect:
+        serializedVersion: 2
+        x: 3018
+        y: 4733
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c12c7df19915d60800000000000000
+      internalID: 7877245585290566813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_24
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 4711
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fc91c387f12ba70800000000000000
+      internalID: 8841163619746565889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_25
+      rect:
+        serializedVersion: 2
+        x: 5768
+        y: 4480
+        width: 585
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89c42adf0e2090a0800000000000000
+      internalID: -6876945985375516278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_26
+      rect:
+        serializedVersion: 2
+        x: 6413
+        y: 4480
+        width: 592
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549dd3ebfdeb0de90800000000000000
+      internalID: -7002887552382412475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_27
+      rect:
+        serializedVersion: 2
+        x: 7073
+        y: 4480
+        width: 591
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875c0e71cd0878390800000000000000
+      internalID: -7816136945496439432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_28
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 4480
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5998403d000f21bc0800000000000000
+      internalID: -3813722048098432619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_29
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 3704
+        width: 278
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d9b7db306337090800000000000000
+      internalID: -8038021520234406620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_30
+      rect:
+        serializedVersion: 2
+        x: 6545
+        y: 3704
+        width: 326
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8cef4aa58ea2310800000000000000
+      internalID: 1381171711755339948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_31
+      rect:
+        serializedVersion: 2
+        x: 7180
+        y: 4002
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6f1fb0d8aacdb40800000000000000
+      internalID: 5466431570488456935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_32
+      rect:
+        serializedVersion: 2
+        x: 8491
+        y: 3704
+        width: 276
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8281b022026f4a0800000000000000
+      internalID: -6560020476631439190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_33
+      rect:
+        serializedVersion: 2
+        x: 10387
+        y: 3704
+        width: 326
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4424e3a90501b4100800000000000000
+      internalID: 93186155662426692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_34
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 3676
+        width: 191
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd2cca1fe6747570800000000000000
+      internalID: 8463520369054854592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_35
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 3665
+        width: 196
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c93aea60e66e460800000000000000
+      internalID: 7270619623415061659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_36
+      rect:
+        serializedVersion: 2
+        x: 10387
+        y: 2995
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4af2c36b5cf3ebf0800000000000000
+      internalID: -296115681030374834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_37
+      rect:
+        serializedVersion: 2
+        x: 10707
+        y: 2956
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f91bb8712150e40800000000000000
+      internalID: 5621919602179153791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_38
+      rect:
+        serializedVersion: 2
+        x: 4756
+        y: 2152
+        width: 253
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c1c20859ef24a90800000000000000
+      internalID: -7331017325351789502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_39
+      rect:
+        serializedVersion: 2
+        x: 6618
+        y: 2731
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0747d50db679f290800000000000000
+      internalID: -7856117520752228595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_40
+      rect:
+        serializedVersion: 2
+        x: 8468
+        y: 2715
+        width: 276
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c1a26c79dbd5b60800000000000000
+      internalID: 7736548194454739987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_41
+      rect:
+        serializedVersion: 2
+        x: 8789
+        y: 2827
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7438e243c1eea6cb0800000000000000
+      internalID: -4869818242145811641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_42
+      rect:
+        serializedVersion: 2
+        x: 10252
+        y: 2680
+        width: 495
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e595ddd402daf00e0800000000000000
+      internalID: -2301430530306123426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_43
+      rect:
+        serializedVersion: 2
+        x: 10707
+        y: 2827
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5dc931cb49728530800000000000000
+      internalID: 3855777597253864799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_44
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 2427
+        width: 461
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d166a99c56b3c410800000000000000
+      internalID: 1496240010048201175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_45
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 2427
+        width: 456
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88abf973443ea01e0800000000000000
+      internalID: -2230720783278163320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_46
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1707
+        width: 191
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97541898319aeb120800000000000000
+      internalID: 2431566750203069817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_47
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 1696
+        width: 191
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9f7af0c277b2a50800000000000000
+      internalID: 6497417918537005553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_48
+      rect:
+        serializedVersion: 2
+        x: 5189
+        y: 1553
+        width: 278
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b1290b93a6f2dd0800000000000000
+      internalID: -2508669671414031555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_49
+      rect:
+        serializedVersion: 2
+        x: 7085
+        y: 1553
+        width: 326
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3882dbe4b415cc0800000000000000
+      internalID: -3724112615305608284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_50
+      rect:
+        serializedVersion: 2
+        x: 9031
+        y: 1553
+        width: 276
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673ac33cc14425b30800000000000000
+      internalID: 4274553886653326198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_51
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 1268
+        width: 602
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da5431ad9cc0e4d0800000000000000
+      internalID: -3107258765499147560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_52
+      rect:
+        serializedVersion: 2
+        x: 10038
+        y: 908
+        width: 360
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8011c67e34ca210800000000000000
+      internalID: 1345525049906497777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_53
+      rect:
+        serializedVersion: 2
+        x: 10493
+        y: 644
+        width: 96
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ba4fc38629d5ae0800000000000000
+      internalID: -1558928919603401827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_54
+      rect:
+        serializedVersion: 2
+        x: 10685
+        y: 858
+        width: 315
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004388c8ec3c09400800000000000000
+      internalID: 328978064686461952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_55
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 605
+        width: 118
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770370eedfc8aaa20800000000000000
+      internalID: 3074424717881847927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_56
+      rect:
+        serializedVersion: 2
+        x: 4875
+        y: 678
+        width: 365
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf133b5033ff7050800000000000000
+      internalID: 5800622234090545102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_57
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 188
+        width: 517
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc816fd25e6f0bdb0800000000000000
+      internalID: -4778047740461049653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_58
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 0
+        width: 5771
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ace32415e6dc720800000000000000
+      internalID: 2868069832987691521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_59
+      rect:
+        serializedVersion: 2
+        x: 9053
+        y: 188
+        width: 479
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37dbf29ed14ef060800000000000000
+      internalID: 6989096095930111804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_60
+      rect:
+        serializedVersion: 2
+        x: 8467
+        y: 2714
+        width: 384
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596566812fe63ba20800000000000000
+      internalID: 3076924956494681749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sneeze_61
+      rect:
+        serializedVersion: 2
+        x: 10251
+        y: 2681
+        width: 520
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36275de9556b04860800000000000000
+      internalID: 7512204657307251299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
