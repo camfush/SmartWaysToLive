@@ -24,11 +24,13 @@ public class PongController : SceneController
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
-        green.transform.Translate(-.003f, 0, 0);
-        red.transform.Translate(-.0107f, 0, 0);
-        blue.transform.Translate(-.0048f, 0, 0);
+        ManageTime();
+
+        green.transform.Translate(-.03f * GameInfo.SpeedMultiplier, 0, 0);
+        red.transform.Translate(-.107f * GameInfo.SpeedMultiplier, 0, 0);
+        blue.transform.Translate(-.048f * GameInfo.SpeedMultiplier, 0, 0);
 
         if (CheckCollision(green, mask))
         {
