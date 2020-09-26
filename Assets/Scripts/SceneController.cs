@@ -102,7 +102,6 @@ public class SceneController : MonoBehaviour
 
     protected virtual void TimeUp()
     {
-        print("time is up");
         PlayerFailure();
     }
 
