@@ -28,7 +28,7 @@ public class SceneController : MonoBehaviour
     private Image single, tens, hundreds;
 
     // Start is called before the first frame update
-    private void Start()
+    private void Awake()
     {
         GenericSetup();
     }
@@ -50,7 +50,7 @@ public class SceneController : MonoBehaviour
 
     protected void GenericSetup()
     {
-        GameInfo.TickRate = 5;
+        GameInfo.TickRate = 10;
         GameInfo.ResetValues();
         fGameOverlay = Instantiate(GameOverlay);
         // Sets image from ConsumedLife to AvailableLife for each life the player still has

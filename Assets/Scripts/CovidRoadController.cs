@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class CovidRoadController : SceneController
 {
+    public GameObject SickWalker;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         GenericSetup();
     }
@@ -13,5 +15,6 @@ public class CovidRoadController : SceneController
     void FixedUpdate()
     {
         ManageTime();
+        Instantiate(SickWalker, new Vector3 (0, -2, 0), Quaternion.identity);
     }
 }
