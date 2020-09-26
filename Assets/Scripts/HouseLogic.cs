@@ -24,7 +24,6 @@ public class HouseLogic : MonoBehaviour
     {
         Vector3 direction = new Vector3(Mathf.Sign(Random.Range(-1, 1)), Mathf.Sign(Random.Range(-1, 1))) * 1.2f +
             new Vector3(Random.Range(0, 0.1f), Random.Range(0, 0.1f)) * 0.1f;
-        print(direction);
         GameObject healthyEscapee = Instantiate(Prefab, transform.position + direction, Quaternion.identity);
         healthyEscapee.GetComponent<EscapeeLogic>().Velocity = direction;
     }
