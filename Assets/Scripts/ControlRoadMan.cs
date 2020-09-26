@@ -36,4 +36,9 @@ public class ControlRoadMan : MonoBehaviour
             canMove = false;
         }
     }
+
+    private void FixedUpdate()
+    {
+        
+    }
 }

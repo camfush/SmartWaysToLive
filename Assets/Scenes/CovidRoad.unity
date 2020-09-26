@@ -333,7 +333,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -347,7 +347,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.78, y: 4.2799997}
+  m_Size: {x: 2.78, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &191317040
 Rigidbody2D:
@@ -528,6 +528,7 @@ MonoBehaviour:
   Seven: {fileID: 0}
   Eight: {fileID: 0}
   Nine: {fileID: 0}
+  SickWalker: {fileID: 3733380240407431882, guid: 2171b6254a651b5408e31ae22e3e5be4, type: 3}
 --- !u!4 &1560197765
 Transform:
   m_ObjectHideFlags: 0

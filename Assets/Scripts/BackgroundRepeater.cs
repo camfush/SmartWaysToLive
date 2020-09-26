@@ -15,7 +15,7 @@ public class BackgroundRepeater : MonoBehaviour
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteHeight = spriteRenderer.sprite.bounds.size.y;
         print(spriteHeight);
-        velocity = new Vector2(0, 10 / GameInfo.TickRate);
+        velocity = new Vector2(0, GameInfo.SpeedMultiplier);
         print(velocity);
         GetComponent<Rigidbody2D>().velocity = velocity;
     }

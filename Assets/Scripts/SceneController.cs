@@ -50,7 +50,7 @@ public class SceneController : MonoBehaviour
 
     protected void GenericSetup()
     {
-        GameInfo.TickRate = 10;
+        SpeedMultiplier = 1;
         GameInfo.ResetValues();
         fGameOverlay = Instantiate(GameOverlay);
         // Sets image from ConsumedLife to AvailableLife for each life the player still has
@@ -82,7 +82,7 @@ public class SceneController : MonoBehaviour
     {
 
         Vector3 ronaPosition = rona.localPosition;
-        ronaPosition.x -= 5/TickRate;
+        ronaPosition.x -= SpeedMultiplier;
         rona.localPosition = ronaPosition;
 
         // Check for running out of time failure

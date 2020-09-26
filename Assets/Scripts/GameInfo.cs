@@ -7,7 +7,7 @@ public static class GameInfo
 {
     public static int PlayerLives;
     public static int PlayerScore;
-    public static int TickRate;
+    public static float SpeedMultiplier;
 
     public static void ResetValues()
     {
@@ -20,7 +20,7 @@ public static class GameInfo
         PlayerScore++;
         if (PlayerScore % 5 == 0)
         {
-            TickRate -= 1;
+            SpeedMultiplier += 0.2f;
         }
     }
 }
