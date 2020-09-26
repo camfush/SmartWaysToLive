@@ -88,7 +88,7 @@ public class SceneController : MonoBehaviour
         rona.localPosition = ronaPosition;
 
         // Check for running out of time failure
-        if (earth.localPosition.x + earth.sizeDelta[0] == rona.localPosition.x - rona.sizeDelta[0])
+        if (earth.localPosition.x + earth.sizeDelta[0] / 2 == rona.localPosition.x - rona.sizeDelta[0] / 2)
         {
             TimeUp();
         }
