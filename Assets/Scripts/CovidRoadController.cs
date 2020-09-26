@@ -41,4 +41,5 @@ public class CovidRoadController : SceneController
     {
         PlayerSuccess();
     }
+
 }
