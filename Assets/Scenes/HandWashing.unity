@@ -871,6 +871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOverlay: {fileID: 6863778291421557639, guid: 36d9b80c77a5180409a8d6eca2743106, type: 3}
+  LostLife: {fileID: 9050193690355248027, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
   AvailableLife: {fileID: -5501431762448725906, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
   Zero: {fileID: -5216769606859500917, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
   One: {fileID: -1963702539796757817, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}

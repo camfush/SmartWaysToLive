@@ -31,7 +31,6 @@ public class HouseLogic : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        print("Collission");
         if (other.gameObject.tag == "Healthy")
         {
             GameEndEvent.Invoke();
@@ -39,7 +38,6 @@ public class HouseLogic : MonoBehaviour
         else
         {
             QuarantinedPeople++;
-            print(QuarantinedPeople);
             if (QuarantinedPeople >= 4)
             {
                 GameWinEvent.Invoke();

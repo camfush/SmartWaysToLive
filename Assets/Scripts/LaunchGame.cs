@@ -36,6 +36,7 @@ public class LaunchGame : MonoBehaviour
             if (Collider == Physics2D.OverlapPoint(mousePos))
             {
                 ButtonClicked = true;
+                GameInfo.ResetValues();
                 SceneManager.LoadScene(LoadGameManager.GetAvailableGame());
             }
             else
