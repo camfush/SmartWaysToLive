@@ -47,8 +47,15 @@ public class SceneController : MonoBehaviour
 
     protected void PlayerFailure()
     {
-        print("You lose");
-        SceneManager.LoadScene("MainMenu");
+        GameInfo.PlayerLives--;
+        if (PlayerLives == 0)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+        else
+        {
+            SceneManager.LoadScene(LoadGameManager.GetAvailableGame());
+        }
     }
 
     protected void GenericSetup()
