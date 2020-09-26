@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using static GameInfo;
 
@@ -42,13 +41,12 @@ public class SceneController : MonoBehaviour
     protected void PlayerSuccess()
     {
         GameInfo.IncScore();
-        SceneManager.LoadScene(LoadGameManager.GetAvailableGame());
+        print("Success");
     }
 
     protected void PlayerFailure()
     {
         print("You lose");
-        SceneManager.LoadScene("MainMenu");
     }
 
     protected void GenericSetup()
@@ -82,7 +80,8 @@ public class SceneController : MonoBehaviour
     }
 
     protected void ManageTime()
-    { 
+    {
+
         Vector3 ronaPosition = rona.localPosition;
         ronaPosition.x -= SpeedMultiplier;
         rona.localPosition = ronaPosition;

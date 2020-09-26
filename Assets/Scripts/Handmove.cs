@@ -7,7 +7,7 @@ public class Handmove : MonoBehaviour
 {
     private BoxCollider2D collider;
     private bool canMove;
-    public float distance;
+    private float distance;
     private Vector3 lastPosition;
     // Start is called before the first frame update
     void Start()
@@ -39,6 +39,7 @@ public class Handmove : MonoBehaviour
         distance += Vector3.Distance(transform.position, lastPosition);
         lastPosition = transform.position;
 
+        print(distance);
         if (Input.GetMouseButtonUp(0))
         {
             canMove = false;
