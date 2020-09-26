@@ -11,14 +11,28 @@ public class SceneController : MonoBehaviour
     public Sprite AvailableLife;
     public Sprite ConsumedLife;
 
+    private GameObject fGameOverlay;
+
     // Start is called before the first frame update
     void Start()
     {
+        GameInfo.TickRate = 10;
         GameInfo.ResetValues();
-        GameObject gameOverlay = Instantiate(GameOverlay);
+        fGameOverlay = Instantiate(GameOverlay);
         for (int i = 0; i < GameInfo.PlayerLives; i++)
         {
-            gameOverlay.transform.GetChild(0).GetChild(i).transform.GetComponent<Image>().sprite = AvailableLife;
+            fGameOverlay.transform.GetChild(0).GetChild(i).transform.GetComponent<Image>().sprite = AvailableLife;
+        }
+    }
+
+    void FixedUpdate()
+    {
+        if (IncTick())
+        {
+            Vector3 ronaPosition = fGameOverlay.transform.GetChild(1).GetChild(1).localPosition;
+            ronaPosition.x -= 1;
+            print(ronaPosition);
+            fGameOverlay.transform.GetChild(1).GetChild(1).localPosition = ronaPosition;
         }
     }
 

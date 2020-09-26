@@ -5,14 +5,25 @@ using UnityEngine;
 public static class GameInfo
 {
     public static int PlayerLives;
-    public static float TimeMultiplier;
     public static int PlayerScore;
+    public static int Tick;
+    public static int TickRate;
 
     public static void ResetValues()
     {
         PlayerLives = 3;
-        TimeMultiplier = 1;
         PlayerScore = 0;
+        Tick = 0;
+    }
+
+    public static bool IncTick()
+    {
+        Tick += 1;
+        if (Tick % TickRate == 0)
+        {
+            return true;
+        }
+        return false;
     }
 
     public static void IncScore()
@@ -20,7 +31,7 @@ public static class GameInfo
         PlayerScore++;
         if (PlayerScore % 5 == 0)
         {
-            TimeMultiplier += 0.3f;
+            TickRate -= 1;
         }
     }
 }
