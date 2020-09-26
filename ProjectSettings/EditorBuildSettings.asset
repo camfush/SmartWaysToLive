@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/HandWashing.unity
-    guid: cfa108a14c7fe4c3fb594d4aeafcf0f9
-  - enabled: 1
     path: Assets/Scenes/CovidRoad.unity
     guid: ac32629405ac80c48bc6df112f2c5d2d
+  - enabled: 1
+    path: Assets/Scenes/HandWashing.unity
+    guid: 508f18419407c4dbdad73588b44f6192
+  - enabled: 1
+    path: Assets/Scenes/SickEscapees.unity
+    guid: 0b623228c52017b419356c2d54718722
   m_configObjects: {}
