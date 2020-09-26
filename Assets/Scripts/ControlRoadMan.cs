@@ -1,17 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ControlRoadMan : MonoBehaviour
 {
-    private BoxCollider2D collider;
-    private bool canMove;
+    private BoxCollider2D Collider;
+    private bool CanMove;
+    public UnityEvent GameEndEvent;
 
     // Start is called before the first frame update
     void Start()
     {
-        collider = GetComponent<BoxCollider2D>();
-        canMove = false;
+        Collider = GetComponent<BoxCollider2D>();
+        CanMove = false;
     }
 
     // Update is called once per frame
@@ -20,12 +22,12 @@ public class ControlRoadMan : MonoBehaviour
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonDown(0))
         {
-            if (collider == Physics2D.OverlapPoint(mousePos))
+            if (Collider == Physics2D.OverlapPoint(mousePos))
             {
-                canMove = true;
+                CanMove = true;
             }
         }
-        if (canMove)
+        if (CanMove)
         {
             Vector3 position = this.transform.position;
             position.x = Mathf.Sign(mousePos.x) * Mathf.Min(Mathf.Abs(mousePos.x), 3);
@@ -33,12 +35,12 @@ public class ControlRoadMan : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
-            canMove = false;
+            CanMove = false;
         }
     }
 
-    private void FixedUpdate()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        GameEndEvent.Invoke();
     }
 }

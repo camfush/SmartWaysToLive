@@ -45,7 +45,7 @@ public class SceneController : MonoBehaviour
 
     protected void PlayerFailure()
     {
-        UnityEngine.Debug.Log("You lose");
+        print("You lose");
     }
 
     protected void GenericSetup()
@@ -88,8 +88,13 @@ public class SceneController : MonoBehaviour
         // Check for running out of time failure
         if (earth.localPosition.x + earth.sizeDelta[0] == rona.localPosition.x - rona.sizeDelta[0])
         {
-            PlayerFailure();
+            TimeUp();
         }
+    }
+
+    protected virtual void TimeUp()
+    {
+        PlayerFailure();
     }
 
     private Sprite GetSpriteForInt(int Number)

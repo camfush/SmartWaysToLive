@@ -7,7 +7,7 @@ public class SickWalkerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(0, 2 * GameInfo.SpeedMultiplier);
+        GetComponent<Rigidbody2D>().velocity = new Vector2(0, 6 * GameInfo.SpeedMultiplier);
     }
 
     private void Update()
