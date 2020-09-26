@@ -41,10 +41,4 @@ public class CovidRoadController : SceneController
         }
         TicksSinceLastWalker += GameInfo.SpeedMultiplier;
     }
-
-    protected override void TimeUp()
-    {
-        PlayerSuccess();
-    }
-
 }
