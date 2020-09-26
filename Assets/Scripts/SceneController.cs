@@ -23,36 +23,14 @@ public class SceneController : MonoBehaviour
     private GameObject fGameOverlay;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        GameInfo.TickRate = 1;
-        GameInfo.ResetValues();
-        fGameOverlay = Instantiate(GameOverlay);
-        // Sets image from ConsumedLife to AvailableLife for each life the player still has
-        for (int i = 0; i < GameInfo.PlayerLives; i++)
-        {
-            fGameOverlay.transform.GetChild(0).GetChild(i).transform.GetComponent<Image>().sprite = AvailableLife;
-        }
-
-        GameInfo.PlayerScore = 212;
-
-        int singlesDigit = GameInfo.PlayerScore % 10;
-        int tensDigit = (GameInfo.PlayerScore - singlesDigit) % 100 / 10;
-        int hundredsDigit = (GameInfo.PlayerScore - singlesDigit - tensDigit) % 1000 / 100;
-
-        fGameOverlay.transform.GetChild(2).GetChild(0).transform.GetComponent<Image>().sprite = GetSpriteForInt(singlesDigit);
-        fGameOverlay.transform.GetChild(2).GetChild(1).transform.GetComponent<Image>().sprite = GetSpriteForInt(tensDigit);
-        fGameOverlay.transform.GetChild(2).GetChild(2).transform.GetComponent<Image>().sprite = GetSpriteForInt(2);
+        GenericSetup();
     }
 
     void FixedUpdate()
     {
-        if (IncTick())
-        {
-            Vector3 ronaPosition = fGameOverlay.transform.GetChild(1).GetChild(1).localPosition;
-            ronaPosition.x -= 1;
-            fGameOverlay.transform.GetChild(1).GetChild(1).localPosition = ronaPosition;
-        }
+        ManageTime();
     }
 
     protected void PlayerSuccess()
@@ -63,6 +41,33 @@ public class SceneController : MonoBehaviour
     protected void PlayerFailure()
     {
 
+    }
+
+    protected void GenericSetup()
+    {
+        GameInfo.TickRate = 5;
+        GameInfo.ResetValues();
+        fGameOverlay = Instantiate(GameOverlay);
+        // Sets image from ConsumedLife to AvailableLife for each life the player still has
+        for (int i = 0; i < GameInfo.PlayerLives; i++)
+        {
+            fGameOverlay.transform.GetChild(0).GetChild(i).transform.GetComponent<Image>().sprite = AvailableLife;
+        }
+
+        int singlesDigit = GameInfo.PlayerScore % 10;
+        int tensDigit = (GameInfo.PlayerScore - singlesDigit) % 100 / 10;
+        int hundredsDigit = (GameInfo.PlayerScore - singlesDigit - tensDigit) % 1000 / 100;
+
+        fGameOverlay.transform.GetChild(2).GetChild(0).transform.GetComponent<Image>().sprite = GetSpriteForInt(singlesDigit);
+        fGameOverlay.transform.GetChild(2).GetChild(1).transform.GetComponent<Image>().sprite = GetSpriteForInt(tensDigit);
+        fGameOverlay.transform.GetChild(2).GetChild(2).transform.GetComponent<Image>().sprite = GetSpriteForInt(hundredsDigit);
+    }
+
+    protected void ManageTime()
+    {
+        Vector3 ronaPosition = fGameOverlay.transform.GetChild(1).GetChild(1).localPosition;
+        ronaPosition.x -= 5/TickRate;
+        fGameOverlay.transform.GetChild(1).GetChild(1).localPosition = ronaPosition;
     }
 
     private Sprite GetSpriteForInt(int Number)
