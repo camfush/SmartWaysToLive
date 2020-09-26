@@ -25,6 +25,11 @@ public class CovidRoadController : SceneController
         roadMan.GetComponent<ControlRoadMan>().GameEndEvent = roadManEvent;
     }
 
+    protected override void TimeUp()
+    {
+        PlayerSuccess();
+    }
+
     void FixedUpdate()
     {
         ManageTime();
@@ -36,10 +41,4 @@ public class CovidRoadController : SceneController
         }
         TicksSinceLastWalker += GameInfo.SpeedMultiplier;
     }
-
-    protected override void TimeUp()
-    {
-        PlayerSuccess();
-    }
-
 }
