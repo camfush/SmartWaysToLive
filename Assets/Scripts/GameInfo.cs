@@ -8,14 +8,14 @@ public static class GameInfo
     public static float TimeMultiplier;
     public static int PlayerScore;
 
-    static void ResetValues()
+    public static void ResetValues()
     {
         PlayerLives = 3;
         TimeMultiplier = 1;
         PlayerScore = 0;
     }
 
-    static void IncScore()
+    public static void IncScore()
     {
         PlayerScore++;
         if (PlayerScore % 5 == 0)
