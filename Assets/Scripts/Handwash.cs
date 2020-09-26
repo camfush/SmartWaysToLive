@@ -26,7 +26,6 @@ public class Handwash : SceneController
 
     void FixedUpdate()
     {
-        print(Righthand.GetComponent<Handmove>().distance);
         ManageTime();
         if (Righthand.GetComponent<Handmove>().distance > threshold)
         {
