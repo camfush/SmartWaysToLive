@@ -1,5 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 using static GameInfo;
@@ -21,6 +24,8 @@ public class SceneController : MonoBehaviour
     public Sprite Nine;
 
     private GameObject fGameOverlay;
+    private RectTransform earth, rona;
+    private Image single, tens, hundreds;
 
     // Start is called before the first frame update
     private void Start()
@@ -40,7 +45,7 @@ public class SceneController : MonoBehaviour
 
     protected void PlayerFailure()
     {
-
+        UnityEngine.Debug.Log("You lose");
     }
 
     protected void GenericSetup()
@@ -57,17 +62,34 @@ public class SceneController : MonoBehaviour
         int singlesDigit = GameInfo.PlayerScore % 10;
         int tensDigit = (GameInfo.PlayerScore - singlesDigit) % 100 / 10;
         int hundredsDigit = (GameInfo.PlayerScore - singlesDigit - tensDigit) % 1000 / 100;
+        
+        // rect transform objects 
+        earth = fGameOverlay.transform.GetChild(1).GetChild(0).GetComponent<RectTransform>();
+        rona = fGameOverlay.transform.GetChild(1).GetChild(1).GetComponent<RectTransform>();
 
-        fGameOverlay.transform.GetChild(2).GetChild(0).transform.GetComponent<Image>().sprite = GetSpriteForInt(singlesDigit);
-        fGameOverlay.transform.GetChild(2).GetChild(1).transform.GetComponent<Image>().sprite = GetSpriteForInt(tensDigit);
-        fGameOverlay.transform.GetChild(2).GetChild(2).transform.GetComponent<Image>().sprite = GetSpriteForInt(hundredsDigit);
+        // images
+        single = fGameOverlay.transform.GetChild(2).GetChild(0).GetComponent<Image>();
+        tens = fGameOverlay.transform.GetChild(2).GetChild(1).GetComponent<Image>();
+        hundreds = fGameOverlay.transform.GetChild(2).GetChild(2).GetComponent<Image>();
+
+        // add sprites
+        single.sprite = GetSpriteForInt(singlesDigit);
+        tens.sprite = GetSpriteForInt(tensDigit);
+        hundreds.sprite = GetSpriteForInt(hundredsDigit);
     }
 
     protected void ManageTime()
     {
-        Vector3 ronaPosition = fGameOverlay.transform.GetChild(1).GetChild(1).localPosition;
+
+        Vector3 ronaPosition = rona.localPosition;
         ronaPosition.x -= 5/TickRate;
-        fGameOverlay.transform.GetChild(1).GetChild(1).localPosition = ronaPosition;
+        rona.localPosition = ronaPosition;
+
+        // Check for running out of time failure
+        if (earth.localPosition.x + earth.sizeDelta[0] == rona.localPosition.x - rona.sizeDelta[0])
+        {
+            PlayerFailure();
+        }
     }
 
     private Sprite GetSpriteForInt(int Number)
