@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SickEscapees.unity
     guid: 0b623228c52017b419356c2d54718722
+  - enabled: 1
+    path: Assets/Scenes/NoSneeze.unity
+    guid: 2ed4be7154ca11644a63cde33d09da22
   m_configObjects: {}

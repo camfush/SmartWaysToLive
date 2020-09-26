@@ -16,9 +16,9 @@ public class EggManSneeze : SceneController
 
     private void Update()
     {
-        if(mask.GetComponent<Transform>().localPosition.x == endPoint)
+        if(mask.GetComponent<Transform>().localPosition.x <= endPoint+0.5)
         {
-
+            PlayerSuccess();
         }
        
     }
@@ -26,7 +26,15 @@ public class EggManSneeze : SceneController
     protected override void TimeUp()
     {
         anim.Play("EggMan Sneeze");
+        StartCoroutine(waiter());
+        
+    }
 
+    IEnumerator waiter()
+    {
+
+        yield return new WaitForSeconds(1);
+        base.TimeUp();
     }
 
 }

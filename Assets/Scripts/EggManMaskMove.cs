@@ -9,6 +9,10 @@ public class EggManMaskMove : MonoBehaviour
     private bool canMove;
     public float distance;
     private Vector3 lastPosition;
+    Vector3 clickedPos;
+    Vector3 offSet;
+    Vector3 mousepos;
+    float xpos, ypos;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +28,8 @@ public class EggManMaskMove : MonoBehaviour
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButtonDown(0))
         {
+            clickedPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            offSet = transform.position - clickedPos;
             if (collider == Physics2D.OverlapPoint(mousePos))
             {
                 canMove = true;
@@ -31,9 +37,9 @@ public class EggManMaskMove : MonoBehaviour
         }
         if (canMove)
         {
-            Vector3 position = this.transform.position;
-            position.x = mousePos.x;
-            this.transform.position = position;
+            mousepos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            xpos = Mathf.Max((float)EggManSneeze.endPoint, mousepos.x);
+            transform.position = new Vector3(xpos, transform.localPosition.y, 0);
         }
         distance += Vector3.Distance(transform.position, lastPosition);
         lastPosition = transform.position;

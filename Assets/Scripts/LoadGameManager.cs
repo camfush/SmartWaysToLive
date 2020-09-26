@@ -5,7 +5,7 @@ using UnityEngine;
 
 public static class LoadGameManager
 {
-    private static List<string> AvailableGames = new List<string>() { "CovidRoad", "HandWashing", "SickEscapees" };
+    private static List<string> AvailableGames = new List<string>() { "CovidRoad", "HandWashing", "SickEscapees", "NoSneeze" };
     private static Queue<string> PreviouslyPlayed = new Queue<string>();
 
     public static string GetAvailableGame()
