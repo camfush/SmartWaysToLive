@@ -12,6 +12,7 @@ using static GameInfo;
 public class SceneController : MonoBehaviour
 {
     public GameObject GameOverlay;
+    public Sprite LostLife;
     public Sprite AvailableLife;
     public Sprite Zero;
     public Sprite One;

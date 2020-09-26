@@ -302,17 +302,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOverlay: {fileID: 6863778291421557639, guid: 36d9b80c77a5180409a8d6eca2743106, type: 3}
-  AvailableLife: {fileID: 0}
-  Zero: {fileID: 0}
-  One: {fileID: 0}
-  Two: {fileID: 0}
-  Three: {fileID: 0}
-  Four: {fileID: 0}
-  Five: {fileID: 0}
-  Six: {fileID: 0}
-  Seven: {fileID: 0}
-  Eight: {fileID: 0}
-  Nine: {fileID: 0}
+  AvailableLife: {fileID: -5501431762448725906, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Zero: {fileID: -5216769606859500917, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  One: {fileID: -1963702539796757817, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Two: {fileID: -2096214663393848964, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Three: {fileID: -5427448313768164191, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Four: {fileID: -8206153021064857541, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Five: {fileID: -8191989874048921072, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Six: {fileID: 5104999900922364974, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Seven: {fileID: 2391445088453177094, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Eight: {fileID: -6311074298438235943, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
+  Nine: {fileID: -1949836089747224943, guid: 76aca1f6b5b7ef944a99d503c33973e9, type: 3}
   spriteSuccess: {fileID: -4317235510905295407, guid: cddde42f69809d7478712cacd993cb4a, type: 3}
 --- !u!1 &1772689830
 GameObject:
