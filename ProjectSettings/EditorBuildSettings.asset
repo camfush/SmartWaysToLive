@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NoSneeze.unity
     guid: 2ed4be7154ca11644a63cde33d09da22
+  - enabled: 1
+    path: Assets/Scenes/Pong.unity
+    guid: defc4f273d1af42a8a2b502fb7f97853
   m_configObjects: {}
