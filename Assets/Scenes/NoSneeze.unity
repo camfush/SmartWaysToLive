@@ -313,6 +313,7 @@ MonoBehaviour:
   Seven: {fileID: 0}
   Eight: {fileID: 0}
   Nine: {fileID: 0}
+  spriteSuccess: {fileID: -4317235510905295407, guid: cddde42f69809d7478712cacd993cb4a, type: 3}
 --- !u!1 &1772689830
 GameObject:
   m_ObjectHideFlags: 0
