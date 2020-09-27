@@ -40,7 +40,7 @@ public class EggManSneeze : SceneController
     IEnumerator waiter()
     {
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         base.TimeUp();
     }
     IEnumerator waiterYes()
